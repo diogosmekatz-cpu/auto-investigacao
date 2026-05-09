@@ -80,6 +80,7 @@ const SocialProof: React.FC = () => {
                 src={testimonial.image} 
                 alt={testimonial.name} 
                 className="w-16 h-16 rounded-full object-cover grayscale opacity-80 border border-white/10"
+                loading="lazy"
               />
               <div>
                 <h4 className="font-serif text-xl text-[#F8F5F0]">{testimonial.name}</h4>

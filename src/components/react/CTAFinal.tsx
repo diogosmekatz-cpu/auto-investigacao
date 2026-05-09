@@ -36,6 +36,7 @@ const CTAFinal: React.FC = () => {
           src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80"
           alt="Céu aberto"
           className="w-full h-full object-cover opacity-20 object-center scale-110"
+          loading="lazy"
         />
         <div className="absolute inset-0 bg-[#12100E]/80 mix-blend-multiply"></div>
       </div>

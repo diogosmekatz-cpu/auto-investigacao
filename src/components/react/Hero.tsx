@@ -39,6 +39,7 @@ const Hero: React.FC = () => {
           src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80" 
           alt="Céu aberto e silêncio" 
           className="w-full h-full object-cover object-center"
+          fetchPriority="high"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#12100E] via-[#12100E]/80 to-transparent"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-[#12100E] via-transparent to-transparent"></div>

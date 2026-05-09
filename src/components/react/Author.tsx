@@ -54,6 +54,7 @@ const Author: React.FC = () => {
               src="/emerson.jpg" 
               alt="Emerson Rodrigues" 
               className="w-full h-full object-cover"
+              loading="lazy"
             />
           </div>
         </div>
