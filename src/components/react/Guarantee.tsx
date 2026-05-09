@@ -39,7 +39,7 @@ const Guarantee: React.FC = () => {
           <h2 className="font-serif text-3xl md:text-4xl text-[#F8F5F0] mb-4">
             Risco absolutamente zero.
           </h2>
-          <p className="font-sans font-light text-[#F8F5F0]/70 text-lg leading-relaxed mb-6">
+          <p className="font-sans font-light text-[#F8F5F0]/85 text-lg leading-relaxed mb-6">
             Se você ler os primeiros capítulos e não sentir clareza na auto investigação, ou se achar que é apenas mais um livro espiritual cheio de teorias, basta solicitar o reembolso em até 7 dias.
           </p>
           <p className="font-mono text-sm text-[#D4AF37] uppercase tracking-wider">

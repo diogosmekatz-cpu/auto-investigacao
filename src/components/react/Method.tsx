@@ -58,7 +58,7 @@ const Method: React.FC = () => {
             Por que esse caminho funciona<br />
             <span className="italic text-[#D4AF37]">quando outros falharam?</span>
           </h2>
-          <p className="mt-6 font-sans text-xl font-light text-[#F8F5F0]/70 max-w-2xl mx-auto text-balance">
+          <p className="mt-6 font-sans text-xl font-light text-[#F8F5F0]/85 max-w-2xl mx-auto text-balance">
             Porque nós não tentamos consertar o personagem. Nós descobrimos quem está observando o personagem.
           </p>
         </div>
@@ -73,7 +73,7 @@ const Method: React.FC = () => {
                 {pillar.icon}
               </div>
               <h3 className="font-serif text-2xl font-semibold text-[#F8F5F0] mb-4">{pillar.title}</h3>
-              <p className="font-sans font-light text-[#F8F5F0]/70 leading-relaxed">
+              <p className="font-sans font-light text-[#F8F5F0]/85 leading-relaxed">
                 {pillar.description}
               </p>
             </div>

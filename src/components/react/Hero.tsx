@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
             </span>
           </h1>
           
-          <p ref={subheadRef} className="opacity-0 mt-8 text-lg md:text-2xl text-[#F8F5F0]/80 font-sans font-light leading-relaxed max-w-2xl mx-auto text-balance" style={{ opacity: 0, visibility: 'hidden' }}>
+          <p ref={subheadRef} className="opacity-0 mt-8 text-lg md:text-2xl text-[#F8F5F0]/95 font-sans font-light leading-relaxed max-w-2xl mx-auto text-balance" style={{ opacity: 0, visibility: 'hidden' }}>
             Descubra quem você é antes do pensamento. Pare de lutar contra a mente e encontre a paz absoluta que sempre esteve no silêncio interior.
           </p>
 
@@ -69,7 +69,7 @@ const Hero: React.FC = () => {
             >
               Quero iniciar minha auto investigação
             </a>
-            <div className="font-mono text-sm text-[#F8F5F0]/60 flex items-center justify-center gap-2">
+            <div className="font-mono text-sm text-[#F8F5F0]/80 flex items-center justify-center gap-2">
               <span className="flex items-center text-[#D4AF37] text-lg">
                 ★★★★★
               </span>

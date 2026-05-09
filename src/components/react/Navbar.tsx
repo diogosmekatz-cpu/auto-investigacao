@@ -55,7 +55,11 @@ const Navbar: React.FC = () => {
          <div className="text-xl font-serif font-bold tracking-wide text-[#F8F5F0]">
           AUTO<span className="text-[#D4AF37]">INVESTIGAÇÃO</span>
         </div>
-        <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="text-[#F8F5F0]">
+        <button 
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)} 
+          className="text-[#F8F5F0]"
+          aria-label={mobileMenuOpen ? "Fechar menu" : "Abrir menu"}
+        >
           {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>

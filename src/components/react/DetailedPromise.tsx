@@ -52,7 +52,7 @@ const DetailedPromise: React.FC = () => {
           <h2 className="font-serif text-[clamp(2.5rem,4vw,3.5rem)] leading-[1.1] text-[#F8F5F0] mb-6 text-balance">
             O que acontece quando o <span className="text-[#D4AF37] italic">"eu"</span> desaparece?
           </h2>
-          <p className="font-sans font-light text-lg text-[#F8F5F0]/70 mb-8 text-balance mx-auto md:mx-0">
+          <p className="font-sans font-light text-lg text-[#F8F5F0]/85 mb-8 text-balance mx-auto md:mx-0">
             Este livro não promete superpoderes ou estados místicos. Ele entrega a única coisa que realmente importa: a liberdade de parar de sofrer pela própria mente.
           </p>
         </div>
@@ -60,7 +60,7 @@ const DetailedPromise: React.FC = () => {
         <div ref={elementsRef} className="flex flex-col gap-8">
           {transformations.map((item, index) => (
             <div key={index} className="flex flex-col gap-3">
-              <div className="font-mono text-sm text-[#F8F5F0]/40 uppercase tracking-wider">
+              <div className="font-mono text-sm text-[#F8F5F0]/70 uppercase tracking-wider">
                 De: {item.before}
               </div>
               <div className="flex gap-4">

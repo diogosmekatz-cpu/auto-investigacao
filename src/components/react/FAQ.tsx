@@ -45,7 +45,7 @@ const FAQ: React.FC = () => {
                 </div>
               </div>
               <div
-                className={`px-6 overflow-hidden transition-all duration-300 font-sans font-light text-[#F8F5F0]/70 leading-relaxed ${openIndex === index ? 'pb-6 max-h-[500px] opacity-100' : 'max-h-0 opacity-0 pb-0'
+                className={`px-6 overflow-hidden transition-all duration-300 font-sans font-light text-[#F8F5F0]/85 leading-relaxed ${openIndex === index ? 'pb-6 max-h-[500px] opacity-100' : 'max-h-0 opacity-0 pb-0'
                   }`}
               >
                 {faq.answer}

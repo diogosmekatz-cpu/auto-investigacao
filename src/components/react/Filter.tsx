@@ -61,7 +61,7 @@ const Filter: React.FC = () => {
             {paraQuem.map((item, index) => (
               <div key={index} className="flex gap-4">
                 <Check size={20} className="text-[#D4AF37] flex-shrink-0 mt-1" />
-                <p className="font-sans font-light text-[#F8F5F0]/80 text-lg leading-relaxed">{item}</p>
+                <p className="font-sans font-light text-[#F8F5F0]/90 text-lg leading-relaxed">{item}</p>
               </div>
             ))}
           </div>
@@ -71,12 +71,12 @@ const Filter: React.FC = () => {
               <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center text-white/40">
                 <X size={24} />
               </div>
-              <h3 className="font-serif text-3xl text-[#F8F5F0]/60">Não é para você se...</h3>
+              <h3 className="font-serif text-3xl text-[#F8F5F0]/80">Não é para você se...</h3>
             </div>
             {naoEParaQuem.map((item, index) => (
               <div key={index} className="flex gap-4">
                 <X size={20} className="text-white/40 flex-shrink-0 mt-1" />
-                <p className="font-sans font-light text-[#F8F5F0]/60 text-lg leading-relaxed">{item}</p>
+                <p className="font-sans font-light text-[#F8F5F0]/80 text-lg leading-relaxed">{item}</p>
               </div>
             ))}
           </div>

@@ -43,7 +43,7 @@ const Inventory: React.FC = () => {
               <h2 className="font-serif text-3xl md:text-4xl text-[#F8F5F0] mb-6">
                 Livro Digital: Auto Investigação
               </h2>
-              <p className="font-sans font-light text-[#F8F5F0]/70 text-lg mb-8 leading-relaxed">
+              <p className="font-sans font-light text-[#F8F5F0]/85 text-lg mb-8 leading-relaxed">
                 Um guia prático e direto para destruir a identificação com a mente e reconhecer a paz absoluta do silêncio. Sem misticismo, sem dogmas.
               </p>
               
@@ -71,9 +71,9 @@ const Inventory: React.FC = () => {
 
             <div className="flex flex-col items-center justify-center bg-[#0D0B0A]/50 rounded-2xl p-8 border border-white/5">
                <div className="text-center w-full">
-                  <div className="font-sans text-[#F8F5F0]/40 line-through text-lg mb-1">De R$ 97,00 por apenas</div>
+                  <div className="font-sans text-[#F8F5F0]/70 line-through text-lg mb-1">De R$ 97,00 por apenas</div>
                   <div className="font-serif text-5xl md:text-6xl text-[#D4AF37] mb-2">R$ 27,00</div>
-                  <div className="font-sans text-[#F8F5F0]/60 text-sm mb-8">Pagamento único e seguro</div>
+                  <div className="font-sans text-[#F8F5F0]/80 text-sm mb-8">Pagamento único e seguro</div>
 
                   <a 
                     href="https://wa.me/5549991143539?text=Emerson%2C%20quero%20adquirir%20a%20minha%20c%C3%B3pia%20do%20Livro%20Auto%20Investiga%C3%A7%C3%A3o" 

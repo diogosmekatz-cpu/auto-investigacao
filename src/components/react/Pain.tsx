@@ -66,7 +66,7 @@ const Pain: React.FC = () => {
           <span className="block font-sans text-sm tracking-widest text-[#D4AF37] uppercase mb-4 text-balance">O Espelho</span>
           <span className="font-serif text-[clamp(2rem,4vw,3rem)] leading-tight text-[#F8F5F0] text-balance inline-block">
             O sofrimento não nasce da dor.<br />
-            <span className="italic text-[#F8F5F0]/60">Nasce da identificação com ela.</span>
+            <span className="italic text-[#F8F5F0]/80">Nasce da identificação com ela.</span>
           </span>
         </h2>
 
@@ -80,7 +80,7 @@ const Pain: React.FC = () => {
                 0{index + 1}
               </div>
               <h3 className="font-serif text-2xl text-[#F8F5F0]">{card.situation}</h3>
-              <p className="font-sans font-light text-[#F8F5F0]/70 leading-relaxed">
+              <p className="font-sans font-light text-[#F8F5F0]/85 leading-relaxed">
                 {card.thought}
               </p>
             </div>
