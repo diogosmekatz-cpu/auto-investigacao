@@ -11,15 +11,15 @@ const Hero: React.FC = () => {
   useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.fromTo(bgRef.current, 
-        { scale: 1.1, opacity: 0 }, 
-        { scale: 1, opacity: 1, duration: 2, ease: "power2.out" }
+        { scale: 1.1, autoAlpha: 0 }, 
+        { scale: 1, autoAlpha: 1, duration: 2, ease: "power2.out" }
       );
 
       gsap.fromTo([headlineRef.current, subheadRef.current, ctaRef.current],
-        { y: 40, opacity: 0 },
+        { y: 40, autoAlpha: 0 },
         { 
           y: 0, 
-          opacity: 1, 
+          autoAlpha: 1, 
           duration: 1.2, 
           stagger: 0.2, 
           ease: "power3.out",
@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
   return (
     <section ref={heroRef} className="relative w-full h-[100dvh] flex items-center justify-center overflow-hidden">
       {/* Background Image & Gradient */}
-      <div ref={bgRef} className="opacity-0 absolute inset-0 z-0">
+      <div ref={bgRef} className="opacity-0 absolute inset-0 z-0" style={{ opacity: 0, visibility: 'hidden' }}>
         <img 
           src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=60&w=1920" 
           alt="Céu aberto e silêncio" 
@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
 
       <div className="relative z-10 w-full max-w-6xl mx-auto px-6 flex flex-col items-center justify-center">
         <div className="max-w-4xl text-center flex flex-col items-center mt-12 md:mt-0">
-          <h1 ref={headlineRef} className="opacity-0 flex flex-col gap-4 w-full">
+          <h1 ref={headlineRef} className="opacity-0 flex flex-col gap-4 w-full" style={{ opacity: 0, visibility: 'hidden' }}>
             <span className="font-sans font-bold text-sm md:text-lg tracking-[0.2em] uppercase text-[#D4AF37]">
               O guia para a sua iluminação espiritual
             </span>
@@ -58,11 +58,11 @@ const Hero: React.FC = () => {
             </span>
           </h1>
           
-          <p ref={subheadRef} className="opacity-0 mt-8 text-lg md:text-2xl text-[#F8F5F0]/80 font-sans font-light leading-relaxed max-w-2xl mx-auto text-balance">
+          <p ref={subheadRef} className="opacity-0 mt-8 text-lg md:text-2xl text-[#F8F5F0]/80 font-sans font-light leading-relaxed max-w-2xl mx-auto text-balance" style={{ opacity: 0, visibility: 'hidden' }}>
             Descubra quem você é antes do pensamento. Pare de lutar contra a mente e encontre a paz absoluta que sempre esteve no silêncio interior.
           </p>
 
-          <div ref={ctaRef} className="opacity-0 mt-12 flex flex-col items-center gap-6 w-full">
+          <div ref={ctaRef} className="opacity-0 mt-12 flex flex-col items-center gap-6 w-full" style={{ opacity: 0, visibility: 'hidden' }}>
             <a 
               href="#oferta" 
               className="bg-[#D4AF37] text-[#12100E] px-10 py-5 rounded-full font-bold text-xl hover:bg-[#F2C94C] transition-all hover:-translate-y-1 shadow-[0_0_40px_rgba(212,175,55,0.4)] inline-flex items-center justify-center gap-2 w-full md:w-auto"
