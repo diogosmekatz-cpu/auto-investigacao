@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/react/Navbar';
+import Hero from '../components/react/Hero';
+import Pain from '../components/react/Pain';
+import DetailedPromise from '../components/react/DetailedPromise';
+import Method from '../components/react/Method';
+import Filter from '../components/react/Filter';
+import Inventory from '../components/react/Inventory';
+import Author from '../components/react/Author';
+import FAQ from '../components/react/FAQ';
+import CTAFinal from '../components/react/CTAFinal';
+import Footer from '../components/react/Footer';
+---
+
+<Layout title="Auto Investigação — O guia para a sua iluminação espiritual">
+  <Navbar client:load />
+  <main>
+    <Hero client:load />
+    <Pain client:load />
+    <DetailedPromise client:load />
+    <Method client:load />
+    <Filter client:load />
+    <Inventory client:load />
+    <Author client:load />
+    <FAQ client:load />
+    <CTAFinal client:load />
+  </main>
+  <Footer />
+</Layout>

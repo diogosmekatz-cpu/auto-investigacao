@@ -1,0 +1,52 @@
+---
+import '../styles/global.css';
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		
+    <title>{title}</title>
+    <meta name="description" content="Pare de lutar contra a mente e encontre a paz absoluta que sempre esteve no silêncio interior. O despertar não é conquistar, é reconhecer." />
+    <meta name="keywords" content="despertar espiritual, iluminação, auto investigação, quem sou eu, paz interior, não dualidade, emerson rodrigues" />
+    <link rel="canonical" href="https://autoinvestigacao.com" />
+    
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content="Pare de lutar contra a mente e encontre a paz absoluta que sempre esteve no silêncio interior." />
+    <meta property="og:type" content="product" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Livro Digital: Auto Investigação",
+        "description": "O guia prático para reconhecer a paz e silenciar a mente, através da auto investigação.",
+        "brand": {
+          "@type": "Person",
+          "name": "Emerson Rodrigues"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "27.00",
+          "priceCurrency": "BRL",
+          "availability": "https://schema.org/InStock",
+          "url": "#"
+        }
+      }
+    </script>
+	</head>
+	<body class="selection:bg-accent selection:text-background relative">
+		<div class="noise-overlay"></div>
+		<slot />
+	</body>
+</html>
