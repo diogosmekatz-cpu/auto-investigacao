@@ -18,8 +18,11 @@ const Footer: React.FC = () => {
           Aviso Legal: Os resultados alcançados através da auto investigação variam de pessoa para pessoa. Este livro não substitui tratamentos médicos ou psicológicos. O conteúdo reflete experiências individuais e um caminho de libertação da mente.
         </div>
 
-        <div className="font-sans font-light text-[#F8F5F0]/70 text-sm">
-          &copy; {new Date().getFullYear()} Emerson Rodrigues. Todos os direitos reservados.
+        <div className="font-sans font-light text-[#F8F5F0]/70 text-sm flex flex-col items-center gap-2">
+          <span>&copy; {new Date().getFullYear()} Emerson Rodrigues. Todos os direitos reservados.</span>
+          <span className="text-[10px] opacity-60">
+            Criado por <a href="https://go.screpec.com.br" target="_blank" rel="noopener noreferrer" className="hover:text-[#D4AF37] transition-colors underline underline-offset-4">Diogo Screpec</a>
+          </span>
         </div>
       </div>
     </footer>
