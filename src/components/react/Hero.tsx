@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
   return (
     <section ref={heroRef} className="relative w-full h-[100dvh] flex items-center justify-center overflow-hidden">
       {/* Background Image & Gradient */}
-      <div ref={bgRef} className="absolute inset-0 z-0">
+      <div ref={bgRef} className="opacity-0 absolute inset-0 z-0">
         <img 
           src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80" 
           alt="Céu aberto e silêncio" 
