@@ -77,7 +77,7 @@ const Inventory: React.FC = () => {
 
                   <a 
                     href="https://wa.me/5549991143539?text=Emerson%2C%20quero%20adquirir%20a%20minha%20c%C3%B3pia%20do%20Livro%20Auto%20Investiga%C3%A7%C3%A3o" 
-                    className="block w-full bg-[#D4AF37] text-[#12100E] px-8 py-4 rounded-full font-bold text-lg hover:bg-[#F2C94C] transition-all hover:-translate-y-1 shadow-[0_0_20px_rgba(212,175,55,0.2)]"
+                    className="block w-full bg-[#D4AF37] text-[#12100E] px-6 py-4 md:px-8 md:py-4 rounded-full font-bold text-base md:text-lg hover:bg-[#F2C94C] transition-all hover:-translate-y-1 shadow-[0_0_20px_rgba(212,175,55,0.2)] text-center text-balance leading-tight"
                   >
                     Garantir meu acesso agora
                   </a>

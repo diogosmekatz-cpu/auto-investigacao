@@ -57,7 +57,7 @@ const CTAFinal: React.FC = () => {
           </h3>
           <a
             href="#oferta"
-            className="w-full bg-[#D4AF37] text-[#12100E] px-8 py-5 rounded-full font-bold text-xl hover:bg-[#F2C94C] transition-all hover:-translate-y-1 shadow-[0_0_30px_rgba(212,175,55,0.4)] text-center"
+            className="w-full bg-[#D4AF37] text-[#12100E] px-6 py-4 md:px-8 md:py-5 rounded-full font-bold text-base md:text-xl hover:bg-[#F2C94C] transition-all hover:-translate-y-1 shadow-[0_0_30px_rgba(212,175,55,0.4)] text-center text-balance leading-tight"
           >
             Ver o que está incluso
           </a>

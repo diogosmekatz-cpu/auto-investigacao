@@ -65,7 +65,7 @@ const Hero: React.FC = () => {
           <div ref={ctaRef} className="opacity-0 mt-12 flex flex-col items-center gap-6 w-full" style={{ opacity: 0, visibility: 'hidden' }}>
             <a 
               href="#oferta" 
-              className="bg-[#D4AF37] text-[#12100E] px-10 py-5 rounded-full font-bold text-xl hover:bg-[#F2C94C] transition-all hover:-translate-y-1 shadow-[0_0_40px_rgba(212,175,55,0.4)] inline-flex items-center justify-center gap-2 w-full md:w-auto"
+              className="bg-[#D4AF37] text-[#12100E] px-6 py-4 md:px-10 md:py-5 rounded-full font-bold text-base md:text-xl hover:bg-[#F2C94C] transition-all hover:-translate-y-1 shadow-[0_0_40px_rgba(212,175,55,0.4)] inline-flex items-center justify-center gap-2 w-full md:w-auto text-center text-balance leading-tight"
             >
               Quero iniciar minha auto investigação
             </a>
