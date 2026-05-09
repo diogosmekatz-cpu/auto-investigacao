@@ -33,7 +33,7 @@ const CTAFinal: React.FC = () => {
       {/* Background with strong Parallax aesthetic */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80"
+          src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=60&w=1920"
           alt="Céu aberto"
           className="w-full h-full object-cover opacity-20 object-center scale-110"
           loading="lazy"
