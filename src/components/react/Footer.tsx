@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
         <div className="font-sans font-light text-[#F8F5F0]/70 text-sm flex flex-col items-center gap-2">
           <span>&copy; {new Date().getFullYear()} Emerson Rodrigues. Todos os direitos reservados.</span>
           <span className="text-[10px] opacity-60">
-            Criado por <a href="https://go.screpec.com.br" target="_blank" rel="noopener noreferrer" className="hover:text-[#D4AF37] transition-colors underline underline-offset-4">Diogo Screpec</a>
+            Criado por <a href="https://go.screpec.com.br?utm_source=sites&utm_medium=footer&utm_campaign=auto-investigacao" target="_blank" rel="noopener noreferrer" className="hover:text-[#D4AF37] transition-colors underline underline-offset-4">Diogo Screpec</a>
           </span>
         </div>
       </div>
